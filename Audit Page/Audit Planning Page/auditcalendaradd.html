@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!--Header Section-->
+    <div class="headers">
+        <img src="ElasticX.jpg.webp" alt="ElasticX Logo" class="logo">
+        <ul class="list">
+            <li><a href="dashboard1.html" style="color:white">Dashboard</li></a>
+            <li>
+                <a href="" style="color:white">Audits</a>
+                <ul class="dropdown1">
+                    <li><a href="auditcalendar.html">Audit Calendar</a></li>
+                    <li><a href="auditplanning.html">Audit Planning</a></li>
+                    <li><a href="#">Fieldwork</a></li>
+                    <li><a href="#">Audit Reports</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" style="color:white">Risk Assessment</a>
+                <ul class="dropdown1">
+                    <li><a href="#">Risk Register</a></li>
+                    <li><a href="#">Compliance Mapping</a></li>
+                    <li><a href="#">Risk Mitigation Actions</a></li>
+                    <li><a href="#">Regulatory Frameworks</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" style="color:white">Controls</a>
+                <ul class="dropdown1">
+                    <li><a href="#">Control Library</a></li>
+                    <li><a href="#">Control Testing</a></li>
+                    <li><a href="#">Control Monitoring</a></li>
+                    <li><a href="#">Control Reporting</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" style="color:white">Reports</a>
+                <ul class="dropdown1">
+                    <li><a href="#">Audit Summary Report</a></li>
+                    <li><a href="#">Observations Report</a></li>
+                    <li><a href="#">Corrective Action Status</a></li>
+                    <li><a href="#">Annual Audit Summary</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="icons">
+            <i class="fa-regular fa-bell"></i>
+            <i class="fa-regular fa-user"></i>
+            <img src="Switcher-icon.svg">
+        </div>
+    </div>
+
+    <!--Add New Audit Calendar Section-->
+    <div class="audit__calendar">
+        <div class="audit__calendar__sub">
+            <h3>Audit Calendar</h3>
+            <div class="icons">
+               <i class="fa-solid fa-floppy-disk"></i>
+            </div>
+        </div>
+        <hr>
+        <img src="Screenshot 2025-10-30 125519.png" width="100%">
+        
+        <!--Fields Section-->
+        <div class="audit-form">
+            <div class="row">
+                <div class="field">
+                    <label>Audit Number</label>
+                    <input type="text" />
+                </div>
+                <div class="field">
+                    <label>Department or Business Unit</label>
+                    <input type="text" />
+                </div>
+                <div class="field">
+                    <label>Audit Type</label>
+                    <input type="text" />
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="field">
+                    <label>Start Date</label>
+                    <input type="date" />
+                </div>
+                <div class="field">
+                    <label>End Date</label>
+                    <input type="date" />
+                </div>
+                <div class="field">
+                    <label>Audit Frequency</label>
+                    <select>
+                        <option value="">Select Frequency</option>
+                        <option value="annual">Annual</option>
+                        <option value="bi-annual">Bi-Annual</option>
+                        <option value="quarterly">Quarterly</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <label>Audit Owner</label>
+                    <input type="text" />
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
